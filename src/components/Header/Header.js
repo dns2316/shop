@@ -20,12 +20,13 @@ class Header extends React.Component {
     return (
       <div className={s.root}>
         <div className={s.container}>
-          <Link className={s.brand} to="/">
-            <img src={logoUrl} srcSet={`${logoUrl2x} 2x`} width="38" height="38" alt="React" />
-          </Link>
           <div className={s.banner}>
-            <h1 className={s.bannerTitle}>WebShop</h1>
-            <p className={s.bannerDesc}>Мой первый интернет магазин. Я изучаю node.js!</p>
+            <Link className={s.brand} to="/">
+              <img src={logoUrl} srcSet={`${logoUrl2x} 2x`} width="38" height="38" alt="React" />
+              WebShop
+            </Link>
+            {/* <h1 className={s.bannerTitle}>WebShop</h1> */}
+            {/* <p className={s.bannerDesc}>Мой первый интернет магазин. Я изучаю node.js!</p> */}
           </div>
           <Navigation className={s.nav} />
         </div>

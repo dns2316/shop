@@ -8,11 +8,11 @@
  */
 
 @import '../variables.css';
-img {
+/*img {
   position: absolute;
-  top: 1em;
+  top: 0.5em;
   left: 1em;
-}
+}*/
 
 :root {
   --brand-color: #61dafb;
@@ -25,7 +25,7 @@ img {
 
 .container {
   margin: 0 auto;
-  padding: 1em 0;
+  padding: 0.5em 0;
   max-width: var(--max-content-width);
 }
 
@@ -36,25 +36,31 @@ img {
 }
 
 .nav {
-  float: right;
-  margin-top: 1em;
+  text-align: center;
+  padding: 0.5em 0;
 }
 
 .banner {
   text-align: center;
 }
 
+#logoTitle {
+  font-size: 1em;
+}
+
 .bannerTitle {
   margin: 0;
-  padding: 10px;
+  /*padding: 10px;*/
   font-weight: normal;
   font-size: 4em;
   line-height: 1em;
+  display:
 }
 
 .bannerDesc {
   padding: 0;
   color: rgba(255, 255, 255, 0.5);
-  font-size: 1.25em;
+  font-size: 0.7em;
   margin: 0;
+  font-style: italic;
 }
