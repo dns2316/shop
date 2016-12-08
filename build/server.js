@@ -72,14 +72,14 @@ module.exports =
 
   var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\server.js'; /**
-                                                                                 * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                 *
-                                                                                 * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                 *
-                                                                                 * This source code is licensed under the MIT license found in the
-                                                                                 * LICENSE.txt file in the root directory of this source tree.
-                                                                                 */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\server.js'; /**
+                                                                            * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                            *
+                                                                            * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                            *
+                                                                            * This source code is licensed under the MIT license found in the
+                                                                            * LICENSE.txt file in the root directory of this source tree.
+                                                                            */
 
   // eslint-disable-line import/no-unresolved
 
@@ -664,14 +664,14 @@ module.exports =
 
   var _inherits3 = _interopRequireDefault(_inherits2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\components\\Html.js'; /**
-                                                                                           * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                           *
-                                                                                           * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                           *
-                                                                                           * This source code is licensed under the MIT license found in the
-                                                                                           * LICENSE.txt file in the root directory of this source tree.
-                                                                                           */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\components\\Html.js'; /**
+                                                                                      * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                      *
+                                                                                      * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                      *
+                                                                                      * This source code is licensed under the MIT license found in the
+                                                                                      * LICENSE.txt file in the root directory of this source tree.
+                                                                                      */
 
   var _react = __webpack_require__(15);
 
@@ -703,7 +703,7 @@ module.exports =
 
         return _react2.default.createElement(
           'html',
-          { className: 'no-js', lang: 'en', __source: {
+          { className: 'no-js', lang: 'ru', __source: {
               fileName: _jsxFileName,
               lineNumber: 25
             },
@@ -907,14 +907,14 @@ module.exports =
 
   var _inherits3 = _interopRequireDefault(_inherits2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\routes\\error\\ErrorPage.js'; /**
-                                                                                                   * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                   *
-                                                                                                   * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                   *
-                                                                                                   * This source code is licensed under the MIT license found in the
-                                                                                                   * LICENSE.txt file in the root directory of this source tree.
-                                                                                                   */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\routes\\error\\ErrorPage.js'; /**
+                                                                                              * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                              *
+                                                                                              * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                              *
+                                                                                              * This source code is licensed under the MIT license found in the
+                                                                                              * LICENSE.txt file in the root directory of this source tree.
+                                                                                              */
 
   var _react = __webpack_require__(15);
 
@@ -2523,14 +2523,14 @@ module.exports =
 
   var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\routes\\home\\index.js'; /**
-                                                                                              * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                              *
-                                                                                              * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                              *
-                                                                                              * This source code is licensed under the MIT license found in the
-                                                                                              * LICENSE.txt file in the root directory of this source tree.
-                                                                                              */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\routes\\home\\index.js'; /**
+                                                                                         * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                         *
+                                                                                         * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                         *
+                                                                                         * This source code is licensed under the MIT license found in the
+                                                                                         * LICENSE.txt file in the root directory of this source tree.
+                                                                                         */
 
   var _react = __webpack_require__(15);
 
@@ -2654,14 +2654,14 @@ module.exports =
 
   var _inherits3 = _interopRequireDefault(_inherits2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\routes\\home\\Home.js'; /**
-                                                                                             * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                             *
-                                                                                             * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                             *
-                                                                                             * This source code is licensed under the MIT license found in the
-                                                                                             * LICENSE.txt file in the root directory of this source tree.
-                                                                                             */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\routes\\home\\Home.js'; /**
+                                                                                        * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                        *
+                                                                                        * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                        *
+                                                                                        * This source code is licensed under the MIT license found in the
+                                                                                        * LICENSE.txt file in the root directory of this source tree.
+                                                                                        */
 
   var _react = __webpack_require__(15);
 
@@ -2857,14 +2857,14 @@ module.exports =
 
   var _inherits3 = _interopRequireDefault(_inherits2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\components\\Layout\\Layout.js'; /**
-                                                                                                     * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                     *
-                                                                                                     * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                     *
-                                                                                                     * This source code is licensed under the MIT license found in the
-                                                                                                     * LICENSE.txt file in the root directory of this source tree.
-                                                                                                     */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\components\\Layout\\Layout.js'; /**
+                                                                                                * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                                *
+                                                                                                * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                                *
+                                                                                                * This source code is licensed under the MIT license found in the
+                                                                                                * LICENSE.txt file in the root directory of this source tree.
+                                                                                                */
 
   var _react = __webpack_require__(15);
 
@@ -3024,14 +3024,14 @@ module.exports =
 
   var _inherits3 = _interopRequireDefault(_inherits2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\components\\Header\\Header.js'; /**
-                                                                                                     * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                     *
-                                                                                                     * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                     *
-                                                                                                     * This source code is licensed under the MIT license found in the
-                                                                                                     * LICENSE.txt file in the root directory of this source tree.
-                                                                                                     */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\components\\Header\\Header.js'; /**
+                                                                                                * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                                *
+                                                                                                * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                                *
+                                                                                                * This source code is licensed under the MIT license found in the
+                                                                                                * LICENSE.txt file in the root directory of this source tree.
+                                                                                                */
 
   var _react = __webpack_require__(15);
 
@@ -3090,42 +3090,26 @@ module.exports =
               },
               __self: this
             },
-            _react2.default.createElement(_Navigation2.default, { className: _Header2.default.nav, __source: {
-                fileName: _jsxFileName,
-                lineNumber: 23
-              },
-              __self: this
-            }),
             _react2.default.createElement(
               _Link2.default,
               { className: _Header2.default.brand, to: '/', __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 24
+                  lineNumber: 23
                 },
                 __self: this
               },
               _react2.default.createElement('img', { src: _logoSmall2.default, srcSet: _logoSmall2x2.default + ' 2x', width: '38', height: '38', alt: 'React', __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 25
+                  lineNumber: 24
                 },
                 __self: this
-              }),
-              _react2.default.createElement(
-                'span',
-                { className: _Header2.default.brandTxt, __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 26
-                  },
-                  __self: this
-                },
-                'Your Company'
-              )
+              })
             ),
             _react2.default.createElement(
               'div',
               { className: _Header2.default.banner, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 28
+                  lineNumber: 26
                 },
                 __self: this
               },
@@ -3133,23 +3117,29 @@ module.exports =
                 'h1',
                 { className: _Header2.default.bannerTitle, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 29
+                    lineNumber: 27
                   },
                   __self: this
                 },
-                'React'
+                'WebShop'
               ),
               _react2.default.createElement(
                 'p',
                 { className: _Header2.default.bannerDesc, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 30
+                    lineNumber: 28
                   },
                   __self: this
                 },
-                'Complex web apps made easy'
+                '\u041C\u043E\u0439 \u043F\u0435\u0440\u0432\u044B\u0439 \u0438\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u043C\u0430\u0433\u0430\u0437\u0438\u043D. \u042F \u0438\u0437\u0443\u0447\u0430\u044E node.js!'
               )
-            )
+            ),
+            _react2.default.createElement(_Navigation2.default, { className: _Header2.default.nav, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 30
+              },
+              __self: this
+            })
           )
         );
       }
@@ -3203,14 +3193,13 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {/*\n   * Typography\n   * ======================================================================== *//*\n   * Layout\n   * ======================================================================== *//*\n   * Media queries breakpoints\n   * ======================================================================== *//* Extra small screen / phone *//* Small screen / tablet *//* Medium screen / desktop *//* Large screen / wide desktop */\n}\n\n.Header-root-AA5IL {\n  background: #373277;\n  color: #fff;\n}\n\n.Header-container-2ArDX {\n  margin: 0 auto;\n  padding: 20px 0;\n  max-width: 1000px;\n}\n\n.Header-brand-w2lzG {\n  color: rgb(146, 229, 252);\n  text-decoration: none;\n  font-size: 1.75em; /* ~28px */\n}\n\n.Header-brandTxt-Qj7O1 {\n  margin-left: 10px;\n}\n\n.Header-nav-2n3qz {\n  float: right;\n  margin-top: 6px;\n}\n\n.Header-banner-2t0Sc {\n  text-align: center;\n}\n\n.Header-bannerTitle-3HrPS {\n  margin: 0;\n  padding: 10px;\n  font-weight: normal;\n  font-size: 4em;\n  line-height: 1em;\n}\n\n.Header-bannerDesc-32d5W {\n  padding: 0;\n  color: rgba(255, 255, 255, 0.5);\n  font-size: 1.25em;\n  margin: 0;\n}\n", "", {"version":3,"sources":["/./components/Header/Header.css","/./components/variables.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;;;;;;GAOG;;AAEH,OACE;;gFAE8E;;gFAMA;;gFAMA,gCAErB,2BACL,6BACE,iCACI;CAC3D;;ADfD;EACE,oBAAoB;EACpB,YAAY;CACb;;AAED;EACE,eAAe;EACf,gBAAgB;EAChB,kBAAoC;CACrC;;AAED;EACE,0BAAiD;EACjD,sBAAsB;EACtB,kBAAkB,CAAC,WAAW;CAC/B;;AAED;EACE,kBAAkB;CACnB;;AAED;EACE,aAAa;EACb,gBAAgB;CACjB;;AAED;EACE,mBAAmB;CACpB;;AAED;EACE,UAAU;EACV,cAAc;EACd,oBAAoB;EACpB,eAAe;EACf,iBAAiB;CAClB;;AAED;EACE,WAAW;EACX,gCAAgC;EAChC,kBAAkB;EAClB,UAAU;CACX","file":"Header.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@import '../variables.css';\n\n:root {\n  --brand-color: #61dafb;\n}\n\n.root {\n  background: #373277;\n  color: #fff;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 20px 0;\n  max-width: var(--max-content-width);\n}\n\n.brand {\n  color: color(var(--brand-color) lightness(+10%));\n  text-decoration: none;\n  font-size: 1.75em; /* ~28px */\n}\n\n.brandTxt {\n  margin-left: 10px;\n}\n\n.nav {\n  float: right;\n  margin-top: 6px;\n}\n\n.banner {\n  text-align: center;\n}\n\n.bannerTitle {\n  margin: 0;\n  padding: 10px;\n  font-weight: normal;\n  font-size: 4em;\n  line-height: 1em;\n}\n\n.bannerDesc {\n  padding: 0;\n  color: rgba(255, 255, 255, 0.5);\n  font-size: 1.25em;\n  margin: 0;\n}\n","/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  --max-content-width: 1000px;\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */\n\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\n  --screen-sm-min: 768px;  /* Small screen / tablet */\n  --screen-md-min: 992px;  /* Medium screen / desktop */\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {/*\n   * Typography\n   * ======================================================================== *//*\n   * Layout\n   * ======================================================================== *//*\n   * Media queries breakpoints\n   * ======================================================================== *//* Extra small screen / phone *//* Small screen / tablet *//* Medium screen / desktop *//* Large screen / wide desktop */\n}\nimg {\n  position: absolute;\n  top: 1em;\n  left: 1em;\n}\n\n.Header-root-AA5IL {\n  background: #373277;\n  color: #fff;\n}\n\n.Header-container-2ArDX {\n  margin: 0 auto;\n  padding: 1em 0;\n  max-width: 1000px;\n}\n\n.Header-brand-w2lzG {\n  color: rgb(146, 229, 252);\n  text-decoration: none;\n  font-size: 1.75em; /* ~28px */\n}\n\n.Header-nav-2n3qz {\n  float: right;\n  margin-top: 1em;\n}\n\n.Header-banner-2t0Sc {\n  text-align: center;\n}\n\n.Header-bannerTitle-3HrPS {\n  margin: 0;\n  padding: 10px;\n  font-weight: normal;\n  font-size: 4em;\n  line-height: 1em;\n}\n\n.Header-bannerDesc-32d5W {\n  padding: 0;\n  color: rgba(255, 255, 255, 0.5);\n  font-size: 1.25em;\n  margin: 0;\n}\n", "", {"version":3,"sources":["/./components/Header/Header.css","/./components/variables.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;;;;;;GAOG;;AAEH,OACE;;gFAE8E;;gFAMA;;gFAMA,gCAErB,2BACL,6BACE,iCACI;CAC3D;ADpBD;EACE,mBAAmB;EACnB,SAAS;EACT,UAAU;CACX;;AAMD;EACE,oBAAoB;EACpB,YAAY;CACb;;AAED;EACE,eAAe;EACf,eAAe;EACf,kBAAoC;CACrC;;AAED;EACE,0BAAiD;EACjD,sBAAsB;EACtB,kBAAkB,CAAC,WAAW;CAC/B;;AAED;EACE,aAAa;EACb,gBAAgB;CACjB;;AAED;EACE,mBAAmB;CACpB;;AAED;EACE,UAAU;EACV,cAAc;EACd,oBAAoB;EACpB,eAAe;EACf,iBAAiB;CAClB;;AAED;EACE,WAAW;EACX,gCAAgC;EAChC,kBAAkB;EAClB,UAAU;CACX","file":"Header.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@import '../variables.css';\nimg {\n  position: absolute;\n  top: 1em;\n  left: 1em;\n}\n\n:root {\n  --brand-color: #61dafb;\n}\n\n.root {\n  background: #373277;\n  color: #fff;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 1em 0;\n  max-width: var(--max-content-width);\n}\n\n.brand {\n  color: color(var(--brand-color) lightness(+10%));\n  text-decoration: none;\n  font-size: 1.75em; /* ~28px */\n}\n\n.nav {\n  float: right;\n  margin-top: 1em;\n}\n\n.banner {\n  text-align: center;\n}\n\n.bannerTitle {\n  margin: 0;\n  padding: 10px;\n  font-weight: normal;\n  font-size: 4em;\n  line-height: 1em;\n}\n\n.bannerDesc {\n  padding: 0;\n  color: rgba(255, 255, 255, 0.5);\n  font-size: 1.25em;\n  margin: 0;\n}\n","/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  --max-content-width: 1000px;\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */\n\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\n  --screen-sm-min: 768px;  /* Small screen / tablet */\n  --screen-md-min: 992px;  /* Medium screen / desktop */\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\n}\n"],"sourceRoot":"webpack://"}]);
 
   // exports
   exports.locals = {
   	"root": "Header-root-AA5IL",
   	"container": "Header-container-2ArDX",
   	"brand": "Header-brand-w2lzG",
-  	"brandTxt": "Header-brandTxt-Qj7O1",
   	"nav": "Header-nav-2n3qz",
   	"banner": "Header-banner-2t0Sc",
   	"bannerTitle": "Header-bannerTitle-3HrPS",
@@ -3255,14 +3244,14 @@ module.exports =
 
   var _inherits3 = _interopRequireDefault(_inherits2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\components\\Link\\Link.js'; /**
-                                                                                                 * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                 *
-                                                                                                 * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                 *
-                                                                                                 * This source code is licensed under the MIT license found in the
-                                                                                                 * LICENSE.txt file in the root directory of this source tree.
-                                                                                                 */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\components\\Link\\Link.js'; /**
+                                                                                            * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                            *
+                                                                                            * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                            *
+                                                                                            * This source code is licensed under the MIT license found in the
+                                                                                            * LICENSE.txt file in the root directory of this source tree.
+                                                                                            */
 
   var _react = __webpack_require__(15);
 
@@ -3413,14 +3402,14 @@ module.exports =
 
   var _inherits3 = _interopRequireDefault(_inherits2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\components\\Navigation\\Navigation.js'; /**
-                                                                                                             * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                             *
-                                                                                                             * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                             *
-                                                                                                             * This source code is licensed under the MIT license found in the
-                                                                                                             * LICENSE.txt file in the root directory of this source tree.
-                                                                                                             */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\components\\Navigation\\Navigation.js'; /**
+                                                                                                        * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                                        *
+                                                                                                        * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                                        *
+                                                                                                        * This source code is licensed under the MIT license found in the
+                                                                                                        * LICENSE.txt file in the root directory of this source tree.
+                                                                                                        */
 
   var _react = __webpack_require__(15);
 
@@ -3471,7 +3460,7 @@ module.exports =
               },
               __self: this
             },
-            'About'
+            '\u041E \u043D\u0430\u0441'
           ),
           _react2.default.createElement(
             _Link2.default,
@@ -3481,7 +3470,7 @@ module.exports =
               },
               __self: this
             },
-            'Contact'
+            '\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B'
           ),
           _react2.default.createElement(
             'span',
@@ -3501,7 +3490,7 @@ module.exports =
               },
               __self: this
             },
-            'Log in'
+            '\u0410\u043A\u043A\u0430\u0443\u043D\u0442'
           ),
           _react2.default.createElement(
             'span',
@@ -3511,7 +3500,7 @@ module.exports =
               },
               __self: this
             },
-            'or'
+            '\u0438\u043B\u0438'
           ),
           _react2.default.createElement(
             _Link2.default,
@@ -3521,7 +3510,7 @@ module.exports =
               },
               __self: this
             },
-            'Sign up'
+            '\u0417\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043E\u0432\u0430\u0442\u0441\u044F'
           )
         );
       }
@@ -3636,14 +3625,14 @@ module.exports =
 
   var _inherits3 = _interopRequireDefault(_inherits2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\components\\Feedback\\Feedback.js'; /**
-                                                                                                         * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                         *
-                                                                                                         * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                         *
-                                                                                                         * This source code is licensed under the MIT license found in the
-                                                                                                         * LICENSE.txt file in the root directory of this source tree.
-                                                                                                         */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\components\\Feedback\\Feedback.js'; /**
+                                                                                                    * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                                    *
+                                                                                                    * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                                    *
+                                                                                                    * This source code is licensed under the MIT license found in the
+                                                                                                    * LICENSE.txt file in the root directory of this source tree.
+                                                                                                    */
 
   var _react = __webpack_require__(15);
 
@@ -3815,14 +3804,14 @@ module.exports =
 
   var _inherits3 = _interopRequireDefault(_inherits2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\components\\Footer\\Footer.js'; /**
-                                                                                                     * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                     *
-                                                                                                     * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                     *
-                                                                                                     * This source code is licensed under the MIT license found in the
-                                                                                                     * LICENSE.txt file in the root directory of this source tree.
-                                                                                                     */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\components\\Footer\\Footer.js'; /**
+                                                                                                * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                                *
+                                                                                                * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                                *
+                                                                                                * This source code is licensed under the MIT license found in the
+                                                                                                * LICENSE.txt file in the root directory of this source tree.
+                                                                                                */
 
   var _react = __webpack_require__(15);
 
@@ -4033,14 +4022,14 @@ module.exports =
   Object.defineProperty(exports, "__esModule", {
     value: true
   });
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\routes\\contact\\index.js'; /**
-                                                                                                 * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                 *
-                                                                                                 * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                 *
-                                                                                                 * This source code is licensed under the MIT license found in the
-                                                                                                 * LICENSE.txt file in the root directory of this source tree.
-                                                                                                 */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\routes\\contact\\index.js'; /**
+                                                                                            * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                            *
+                                                                                            * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                            *
+                                                                                            * This source code is licensed under the MIT license found in the
+                                                                                            * LICENSE.txt file in the root directory of this source tree.
+                                                                                            */
 
   var _react = __webpack_require__(15);
 
@@ -4115,14 +4104,14 @@ module.exports =
 
   var _inherits3 = _interopRequireDefault(_inherits2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\routes\\contact\\Contact.js'; /**
-                                                                                                   * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                   *
-                                                                                                   * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                   *
-                                                                                                   * This source code is licensed under the MIT license found in the
-                                                                                                   * LICENSE.txt file in the root directory of this source tree.
-                                                                                                   */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\routes\\contact\\Contact.js'; /**
+                                                                                              * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                              *
+                                                                                              * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                              *
+                                                                                              * This source code is licensed under the MIT license found in the
+                                                                                              * LICENSE.txt file in the root directory of this source tree.
+                                                                                              */
 
   var _react = __webpack_require__(15);
 
@@ -4260,14 +4249,14 @@ module.exports =
   Object.defineProperty(exports, "__esModule", {
     value: true
   });
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\routes\\login\\index.js'; /**
-                                                                                               * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                               *
-                                                                                               * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                               *
-                                                                                               * This source code is licensed under the MIT license found in the
-                                                                                               * LICENSE.txt file in the root directory of this source tree.
-                                                                                               */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\routes\\login\\index.js'; /**
+                                                                                          * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                          *
+                                                                                          * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                          *
+                                                                                          * This source code is licensed under the MIT license found in the
+                                                                                          * LICENSE.txt file in the root directory of this source tree.
+                                                                                          */
 
   var _react = __webpack_require__(15);
 
@@ -4342,14 +4331,14 @@ module.exports =
 
   var _inherits3 = _interopRequireDefault(_inherits2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\routes\\login\\Login.js'; /**
-                                                                                               * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                               *
-                                                                                               * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                               *
-                                                                                               * This source code is licensed under the MIT license found in the
-                                                                                               * LICENSE.txt file in the root directory of this source tree.
-                                                                                               */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\routes\\login\\Login.js'; /**
+                                                                                          * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                          *
+                                                                                          * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                          *
+                                                                                          * This source code is licensed under the MIT license found in the
+                                                                                          * LICENSE.txt file in the root directory of this source tree.
+                                                                                          */
 
   var _react = __webpack_require__(15);
 
@@ -4751,14 +4740,14 @@ module.exports =
   Object.defineProperty(exports, "__esModule", {
     value: true
   });
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\routes\\register\\index.js'; /**
-                                                                                                  * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                  *
-                                                                                                  * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                  *
-                                                                                                  * This source code is licensed under the MIT license found in the
-                                                                                                  * LICENSE.txt file in the root directory of this source tree.
-                                                                                                  */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\routes\\register\\index.js'; /**
+                                                                                             * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                             *
+                                                                                             * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                             *
+                                                                                             * This source code is licensed under the MIT license found in the
+                                                                                             * LICENSE.txt file in the root directory of this source tree.
+                                                                                             */
 
   var _react = __webpack_require__(15);
 
@@ -4833,14 +4822,14 @@ module.exports =
 
   var _inherits3 = _interopRequireDefault(_inherits2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\routes\\register\\Register.js'; /**
-                                                                                                     * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                     *
-                                                                                                     * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                     *
-                                                                                                     * This source code is licensed under the MIT license found in the
-                                                                                                     * LICENSE.txt file in the root directory of this source tree.
-                                                                                                     */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\routes\\register\\Register.js'; /**
+                                                                                                * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                                *
+                                                                                                * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                                *
+                                                                                                * This source code is licensed under the MIT license found in the
+                                                                                                * LICENSE.txt file in the root directory of this source tree.
+                                                                                                */
 
   var _react = __webpack_require__(15);
 
@@ -4991,14 +4980,14 @@ module.exports =
 
   var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\routes\\admin\\index.js'; /**
-                                                                                               * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                               *
-                                                                                               * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                               *
-                                                                                               * This source code is licensed under the MIT license found in the
-                                                                                               * LICENSE.txt file in the root directory of this source tree.
-                                                                                               */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\routes\\admin\\index.js'; /**
+                                                                                          * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                          *
+                                                                                          * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                          *
+                                                                                          * This source code is licensed under the MIT license found in the
+                                                                                          * LICENSE.txt file in the root directory of this source tree.
+                                                                                          */
 
   var _react = __webpack_require__(15);
 
@@ -5110,14 +5099,14 @@ module.exports =
 
   var _inherits3 = _interopRequireDefault(_inherits2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\routes\\admin\\Admin.js'; /**
-                                                                                               * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                               *
-                                                                                               * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                               *
-                                                                                               * This source code is licensed under the MIT license found in the
-                                                                                               * LICENSE.txt file in the root directory of this source tree.
-                                                                                               */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\routes\\admin\\Admin.js'; /**
+                                                                                          * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                          *
+                                                                                          * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                          *
+                                                                                          * This source code is licensed under the MIT license found in the
+                                                                                          * LICENSE.txt file in the root directory of this source tree.
+                                                                                          */
 
   var _react = __webpack_require__(15);
 
@@ -5272,14 +5261,14 @@ module.exports =
 
   var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\routes\\content\\index.js'; /**
-                                                                                                 * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                 *
-                                                                                                 * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                 *
-                                                                                                 * This source code is licensed under the MIT license found in the
-                                                                                                 * LICENSE.txt file in the root directory of this source tree.
-                                                                                                 */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\routes\\content\\index.js'; /**
+                                                                                            * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                            *
+                                                                                            * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                            *
+                                                                                            * This source code is licensed under the MIT license found in the
+                                                                                            * LICENSE.txt file in the root directory of this source tree.
+                                                                                            */
 
   var _react = __webpack_require__(15);
 
@@ -5414,14 +5403,14 @@ module.exports =
 
   var _inherits3 = _interopRequireDefault(_inherits2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\routes\\content\\Content.js'; /**
-                                                                                                   * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                   *
-                                                                                                   * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                   *
-                                                                                                   * This source code is licensed under the MIT license found in the
-                                                                                                   * LICENSE.txt file in the root directory of this source tree.
-                                                                                                   */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\routes\\content\\Content.js'; /**
+                                                                                              * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                              *
+                                                                                              * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                              *
+                                                                                              * This source code is licensed under the MIT license found in the
+                                                                                              * LICENSE.txt file in the root directory of this source tree.
+                                                                                              */
 
   var _react = __webpack_require__(15);
 
@@ -5561,14 +5550,14 @@ module.exports =
   Object.defineProperty(exports, "__esModule", {
     value: true
   });
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\routes\\notFound\\index.js'; /**
-                                                                                                  * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                  *
-                                                                                                  * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                  *
-                                                                                                  * This source code is licensed under the MIT license found in the
-                                                                                                  * LICENSE.txt file in the root directory of this source tree.
-                                                                                                  */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\routes\\notFound\\index.js'; /**
+                                                                                             * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                             *
+                                                                                             * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                             *
+                                                                                             * This source code is licensed under the MIT license found in the
+                                                                                             * LICENSE.txt file in the root directory of this source tree.
+                                                                                             */
 
   var _react = __webpack_require__(15);
 
@@ -5644,14 +5633,14 @@ module.exports =
 
   var _inherits3 = _interopRequireDefault(_inherits2);
 
-  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\react-kit\\src\\routes\\notFound\\NotFound.js'; /**
-                                                                                                     * React Starter Kit (https://www.reactstarterkit.com/)
-                                                                                                     *
-                                                                                                     * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
-                                                                                                     *
-                                                                                                     * This source code is licensed under the MIT license found in the
-                                                                                                     * LICENSE.txt file in the root directory of this source tree.
-                                                                                                     */
+  var _jsxFileName = 'C:\\tasks\\task1\\node.react\\shop\\src\\routes\\notFound\\NotFound.js'; /**
+                                                                                                * React Starter Kit (https://www.reactstarterkit.com/)
+                                                                                                *
+                                                                                                * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+                                                                                                *
+                                                                                                * This source code is licensed under the MIT license found in the
+                                                                                                * LICENSE.txt file in the root directory of this source tree.
+                                                                                                */
 
   var _react = __webpack_require__(15);
 
