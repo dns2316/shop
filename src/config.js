@@ -25,7 +25,7 @@ export const analytics = {
 
 export const auth = {
 
-  jwt: { secret: process.env.JWT_SECRET || 'React Starter Kit' },
+  jwt: { secret: process.env.JWT_SECRET || 'My first web shop on react.js' },
 
   // https://developers.facebook.com/
   facebook: {

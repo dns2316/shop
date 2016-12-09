@@ -22,11 +22,18 @@
 
 .news {
   padding: 0;
+  display: inline-block;
 }
 
 .newsItem {
-  list-style-type: none;
-  padding-bottom: 6px;
+  padding: 0.7em;
+  border: solid 0.1vw black;
+  width: 14vw;
+  height: 10vw;
+  margin: 0 1vw;
+  margin-top: calc(50vh - 10vw);
+  display: inline-block;
+  clear: both;
 }
 
 .newsTitle {
@@ -36,4 +43,8 @@
 .newsTitle,
 .newsDesc {
   display: block;
+}
+
+.mainShop {
+  text-align: center;
 }

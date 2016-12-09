@@ -854,7 +854,7 @@ module.exports =
 
   var auth = exports.auth = {
 
-    jwt: { secret: process.env.JWT_SECRET || 'React Starter Kit' },
+    jwt: { secret: process.env.JWT_SECRET || 'My first web shop on react.js' },
 
     // https://developers.facebook.com/
     facebook: {
@@ -2591,11 +2591,11 @@ module.exports =
                   break;
                 }
 
-                throw new Error('Failed to load the news feed.');
+                throw new Error('Failed to load the shop cart.');
 
               case 9:
                 return _context.abrupt('return', {
-                  title: 'React Starter Kit',
+                  title: 'CartShop',
                   component: _react2.default.createElement(
                     _Layout2.default,
                     {
@@ -2611,8 +2611,7 @@ module.exports =
                       },
                       __self: _this
                     })
-                  )
-                });
+                  ) });
 
               case 10:
               case 'end':
@@ -2707,20 +2706,10 @@ module.exports =
               __self: this
             },
             _react2.default.createElement(
-              'h1',
-              { className: _Home2.default.title, __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 27
-                },
-                __self: this
-              },
-              'React.js News'
-            ),
-            _react2.default.createElement(
               'ul',
               { className: _Home2.default.news, __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 28
+                  lineNumber: 27
                 },
                 __self: this
               },
@@ -2729,7 +2718,7 @@ module.exports =
                   'li',
                   { key: index, className: _Home2.default.newsItem, __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 30
+                      lineNumber: 29
                     },
                     __self: _this2
                   },
@@ -2737,7 +2726,7 @@ module.exports =
                     'a',
                     { href: item.link, className: _Home2.default.newsTitle, __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 31
+                        lineNumber: 30
                       },
                       __self: _this2
                     },
@@ -2748,7 +2737,7 @@ module.exports =
                     dangerouslySetInnerHTML: { __html: item.contentSnippet },
                     __source: {
                       fileName: _jsxFileName,
-                      lineNumber: 32
+                      lineNumber: 31
                     },
                     __self: _this2
                   })
@@ -2815,7 +2804,7 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {/*\n   * Typography\n   * ======================================================================== *//*\n   * Layout\n   * ======================================================================== *//*\n   * Media queries breakpoints\n   * ======================================================================== *//* Extra small screen / phone *//* Small screen / tablet *//* Medium screen / desktop *//* Large screen / wide desktop */\n}\n\n.Home-root-3mfpA {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Home-container-2ac9n {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n\n.Home-news-1G-yc {\n  padding: 0;\n}\n\n.Home-newsItem-3n-W5 {\n  list-style-type: none;\n  padding-bottom: 6px;\n}\n\n.Home-newsTitle-PdodP {\n  font-size: 1.125em;\n}\n\n.Home-newsTitle-PdodP,\n.Home-newsDesc-1JFUn {\n  display: block;\n}\n", "", {"version":3,"sources":["/./routes/home/Home.css","/./components/variables.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;;;;;;GAOG;;AAEH,OACE;;gFAE8E;;gFAMA;;gFAMA,gCAErB,2BACL,6BACE,iCACI;CAC3D;;ADnBD;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAAoC;CACrC;;AAED;EACE,WAAW;CACZ;;AAED;EACE,sBAAsB;EACtB,oBAAoB;CACrB;;AAED;EACE,mBAAmB;CACpB;;AAED;;EAEE,eAAe;CAChB","file":"Home.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@import '../../components/variables.css';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: var(--max-content-width);\n}\n\n.news {\n  padding: 0;\n}\n\n.newsItem {\n  list-style-type: none;\n  padding-bottom: 6px;\n}\n\n.newsTitle {\n  font-size: 1.125em;\n}\n\n.newsTitle,\n.newsDesc {\n  display: block;\n}\n","/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  --max-content-width: 1000px;\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */\n\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\n  --screen-sm-min: 768px;  /* Small screen / tablet */\n  --screen-md-min: 992px;  /* Medium screen / desktop */\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {/*\n   * Typography\n   * ======================================================================== *//*\n   * Layout\n   * ======================================================================== *//*\n   * Media queries breakpoints\n   * ======================================================================== *//* Extra small screen / phone *//* Small screen / tablet *//* Medium screen / desktop *//* Large screen / wide desktop */\n}\n\n.Home-root-3mfpA {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.Home-container-2ac9n {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: 1000px;\n}\n\n.Home-news-1G-yc {\n  padding: 0;\n  display: inline-block;\n}\n\n.Home-newsItem-3n-W5 {\n  padding: 0.7em;\n  border: solid 0.1vw black;\n  width: 14vw;\n  height: 10vw;\n  margin: 0 1vw;\n  margin-top: calc(50vh - 10vw);\n  display: inline-block;\n  clear: both;\n}\n\n.Home-newsTitle-PdodP {\n  font-size: 1.125em;\n}\n\n.Home-newsTitle-PdodP,\n.Home-newsDesc-1JFUn {\n  display: block;\n}\n\n.Home-mainShop-2T63K {\n  text-align: center;\n}\n", "", {"version":3,"sources":["/./routes/home/Home.css","/./components/variables.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;ACPH;;;;;;;GAOG;;AAEH,OACE;;gFAE8E;;gFAMA;;gFAMA,gCAErB,2BACL,6BACE,iCACI;CAC3D;;ADnBD;EACE,mBAAmB;EACnB,oBAAoB;CACrB;;AAED;EACE,eAAe;EACf,kBAAkB;EAClB,kBAAoC;CACrC;;AAED;EACE,WAAW;EACX,sBAAsB;CACvB;;AAED;EACE,eAAe;EACf,0BAA0B;EAC1B,YAAY;EACZ,aAAa;EACb,cAAc;EACd,8BAA8B;EAC9B,sBAAsB;EACtB,YAAY;CACb;;AAED;EACE,mBAAmB;CACpB;;AAED;;EAEE,eAAe;CAChB;;AAED;EACE,mBAAmB;CACpB","file":"Home.css","sourcesContent":["/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@import '../../components/variables.css';\n\n.root {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.container {\n  margin: 0 auto;\n  padding: 0 0 40px;\n  max-width: var(--max-content-width);\n}\n\n.news {\n  padding: 0;\n  display: inline-block;\n}\n\n.newsItem {\n  padding: 0.7em;\n  border: solid 0.1vw black;\n  width: 14vw;\n  height: 10vw;\n  margin: 0 1vw;\n  margin-top: calc(50vh - 10vw);\n  display: inline-block;\n  clear: both;\n}\n\n.newsTitle {\n  font-size: 1.125em;\n}\n\n.newsTitle,\n.newsDesc {\n  display: block;\n}\n\n.mainShop {\n  text-align: center;\n}\n","/**\n * React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n:root {\n  /*\n   * Typography\n   * ======================================================================== */\n\n  --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;\n\n  /*\n   * Layout\n   * ======================================================================== */\n\n  --max-content-width: 1000px;\n\n  /*\n   * Media queries breakpoints\n   * ======================================================================== */\n\n  --screen-xs-min: 480px;  /* Extra small screen / phone */\n  --screen-sm-min: 768px;  /* Small screen / tablet */\n  --screen-md-min: 992px;  /* Medium screen / desktop */\n  --screen-lg-min: 1200px; /* Large screen / wide desktop */\n}\n"],"sourceRoot":"webpack://"}]);
 
   // exports
   exports.locals = {
@@ -2824,7 +2813,8 @@ module.exports =
   	"news": "Home-news-1G-yc",
   	"newsItem": "Home-newsItem-3n-W5",
   	"newsTitle": "Home-newsTitle-PdodP",
-  	"newsDesc": "Home-newsDesc-1JFUn"
+  	"newsDesc": "Home-newsDesc-1JFUn",
+  	"mainShop": "Home-mainShop-2T63K"
   };
 
 /***/ },
@@ -3436,9 +3426,29 @@ module.exports =
           },
           _react2.default.createElement(
             _Link2.default,
-            { className: _Navigation2.default.link, to: '/about', __source: {
+            { className: _Navigation2.default.link, to: '/login', __source: {
                 fileName: _jsxFileName,
                 lineNumber: 24
+              },
+              __self: this
+            },
+            '\u0410\u043A\u043A\u0430\u0443\u043D\u0442'
+          ),
+          _react2.default.createElement(
+            'span',
+            { className: _Navigation2.default.spacer, __source: {
+                fileName: _jsxFileName,
+                lineNumber: 25
+              },
+              __self: this
+            },
+            ' | '
+          ),
+          _react2.default.createElement(
+            _Link2.default,
+            { className: _Navigation2.default.link, to: '/about', __source: {
+                fileName: _jsxFileName,
+                lineNumber: 26
               },
               __self: this
             },
@@ -3448,7 +3458,7 @@ module.exports =
             _Link2.default,
             { className: _Navigation2.default.link, to: '/contact', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 25
+                lineNumber: 27
               },
               __self: this
             },
@@ -3458,7 +3468,7 @@ module.exports =
             'span',
             { className: _Navigation2.default.spacer, __source: {
                 fileName: _jsxFileName,
-                lineNumber: 26
+                lineNumber: 28
               },
               __self: this
             },
@@ -3466,13 +3476,13 @@ module.exports =
           ),
           _react2.default.createElement(
             _Link2.default,
-            { className: _Navigation2.default.link, to: '/login', __source: {
+            { className: _Navigation2.default.link, to: '/cart', __source: {
                 fileName: _jsxFileName,
-                lineNumber: 27
+                lineNumber: 29
               },
               __self: this
             },
-            '\u0410\u043A\u043A\u0430\u0443\u043D\u0442'
+            '\u041A\u043E\u0440\u0437\u0438\u043D\u0430'
           )
         );
       }
@@ -3829,86 +3839,6 @@ module.exports =
                 __self: this
               },
               '\xA9 Your Company'
-            ),
-            _react2.default.createElement(
-              'span',
-              { className: _Footer2.default.spacer, __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 21
-                },
-                __self: this
-              },
-              '\xB7'
-            ),
-            _react2.default.createElement(
-              _Link2.default,
-              { className: _Footer2.default.link, to: '/', __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 22
-                },
-                __self: this
-              },
-              'Home'
-            ),
-            _react2.default.createElement(
-              'span',
-              { className: _Footer2.default.spacer, __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 23
-                },
-                __self: this
-              },
-              '\xB7'
-            ),
-            _react2.default.createElement(
-              _Link2.default,
-              { className: _Footer2.default.link, to: '/admin', __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 24
-                },
-                __self: this
-              },
-              'Admin'
-            ),
-            _react2.default.createElement(
-              'span',
-              { className: _Footer2.default.spacer, __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 25
-                },
-                __self: this
-              },
-              '\xB7'
-            ),
-            _react2.default.createElement(
-              _Link2.default,
-              { className: _Footer2.default.link, to: '/privacy', __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 26
-                },
-                __self: this
-              },
-              'Privacy'
-            ),
-            _react2.default.createElement(
-              'span',
-              { className: _Footer2.default.spacer, __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 27
-                },
-                __self: this
-              },
-              '\xB7'
-            ),
-            _react2.default.createElement(
-              _Link2.default,
-              { className: _Footer2.default.link, to: '/not-found', __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 28
-                },
-                __self: this
-              },
-              'Not Found'
             )
           )
         );

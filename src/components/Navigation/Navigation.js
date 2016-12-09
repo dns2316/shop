@@ -21,10 +21,12 @@ class Navigation extends React.Component {
   render() {
     return (
       <div className={cx(s.root, this.props.className)} role="navigation">
+        <Link className={s.link} to="/login">Аккаунт</Link>
+        <span className={s.spacer}> | </span>
         <Link className={s.link} to="/about">О нас</Link>
         <Link className={s.link} to="/contact">Контакты</Link>
         <span className={s.spacer}> | </span>
-        <Link className={s.link} to="/login">Аккаунт</Link>
+        <Link className={s.link} to="/cart">Корзина</Link>
         {/* <span className={s.spacer}>или</span>
         <Link className={cx(s.link, s.highlight)} to="/register">Зарегистрироватся</Link> */}
       </div>
