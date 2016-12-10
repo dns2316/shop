@@ -10,8 +10,8 @@
 @import '../../components/variables.css';
 
 .root {
-  /*padding-left: 20px;
-  padding-right: 20px;*/
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container {
@@ -32,12 +32,12 @@
   float: left;
   padding: 0.1em;
   border: solid 0.1vw black;
-  width: 28%;
-  height: 10vw;
+  width: 40vw;
+  height: 25vh;
   margin-left: 1vw;
-  margin-right: 2.365%;
-  margin-top: calc(50vh - 10vw);
-  margin-bottom: calc(25vh - 10vw);
+  margin-right: 0.165%;
+  margin-top: calc(25vh - 10vw);
+  margin-bottom: calc(20vh - 10vw);
 }
 
 
