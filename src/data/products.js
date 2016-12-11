@@ -4,7 +4,7 @@ const productCollection = [
     name: 'good 1',
     price: 100,
     currency: 'USD',
-    image: 'images/01.jpg',
+    image: '../images/01.jpg',
     url: '#'
   },
   {
@@ -12,7 +12,7 @@ const productCollection = [
     name: 'good',
     price: 100,
     currency: 'USD',
-    image: 'images/02.jpg',
+    image: '../images/02.jpg',
     url: '#'
   },
   {
@@ -20,7 +20,7 @@ const productCollection = [
     name: 'good',
     price: 100,
     currency: 'USD',
-    image: 'images/03.jpg',
+    image: '../images/03.jpg',
     url: '#'
   },
   {
@@ -28,7 +28,7 @@ const productCollection = [
     name: 'good',
     price: 100,
     currency: 'USD',
-    image: 'images/04.jpg',
+    image: '../images/04.jpg',
     url: '#'
   },
   {
@@ -36,7 +36,7 @@ const productCollection = [
     name: 'good',
     price: 100,
     currency: 'USD',
-    image: 'images/05.jpg',
+    image: '../images/05.jpg',
     url: '#'
   },
   {
@@ -44,7 +44,7 @@ const productCollection = [
     name: 'good',
     price: 100,
     currency: 'USD',
-    image: 'images/06.jpg',
+    image: '../images/06.jpg',
     url: '#'
   },
 ]

@@ -101,7 +101,7 @@ app.get('*', async (req, res, next) => {
       },
     };
 
-    const route = await UniversalRouter.resolve(routes, {
+    const route = await UniversalRouter.resolve(routes, { // берет роут из папки роутов
       path: req.path,
       query: req.query,
     });
@@ -111,7 +111,7 @@ app.get('*', async (req, res, next) => {
       return;
     }
 
-    const data = { ...route };
+    const data = { ...route }; // записывает роут в const data
     data.children = ReactDOM.renderToString(<App context={context}>{route.component}</App>);
     data.style = [...css].join('');
     data.scripts = [
@@ -122,9 +122,9 @@ app.get('*', async (req, res, next) => {
       data.scripts.push(assets[route.chunk].js);
     }
 
-    const html = ReactDOM.renderToStaticMarkup(<Html {...data} />);
+    const html = ReactDOM.renderToStaticMarkup(<Html {...data} />); // добавляет роут в html
     res.status(route.status || 200);
-    res.send(`<!doctype html>${html}`);
+    res.send(`<!doctype html>${html}`); // отправляет роут на страницу.
   } catch (err) {
     next(err);
   }

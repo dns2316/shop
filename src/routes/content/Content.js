@@ -20,7 +20,7 @@ class Content extends React.Component {
 
   render() {
     const { path, title, content } = this.props;
-    return (
+    return ( // форма вывода новостей на домашней странице?
       <div className={s.root}>
         <div className={s.container}>
           {title && path !== '/' && <h1>{title}</h1>}
