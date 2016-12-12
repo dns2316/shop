@@ -15,9 +15,11 @@
 }
 
 .container {
-  margin: 0 auto;
-  padding: 0 0 40px;
+  margin: 0;
+  padding: 0;
   max-width: var(--max-content-width);
+  width: 100%;
+  height: 100%;
 }
 
 .news {
@@ -30,12 +32,13 @@
 
 .newsItem {
   float: left;
-  padding: 1em;
+  padding: 0.5em;
   border: solid 0.1vw black;
-  width: 25%;
-  height: 20vw;
+  width: 30%;
+  height: 55%;
+  min-height: 20vh;
   margin-left: 0.5vw;
-  margin-right: 0.1vw;
+  margin-right: 0;
   margin-top: calc(12.5vh - 10vw);
   margin-bottom: calc(13.5vh - 10vw);
 }
@@ -52,9 +55,12 @@
 
 .newsTitle,
 .newsDesc {
-	width: 100%;
   text-align: center;
   margin-bottom: calc(11vh - 10vw);
+  word-wrap: break-word;
+  padding: 0.3em;
+	width: 100%;
+  text-align: center;
 }
 
 .mainShop {
