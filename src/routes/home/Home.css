@@ -30,15 +30,17 @@
 
 .newsItem {
   float: left;
-  padding: 0.1em;
+  padding: 1em;
   border: solid 0.1vw black;
-  width: 40vw;
-  height: 25vh;
-  margin-left: 1vw;
-  margin-right: 0.165%;
-  margin-top: calc(25vh - 10vw);
-  margin-bottom: calc(20vh - 10vw);
+  width: 25%;
+  height: 20vw;
+  margin-left: 0.5vw;
+  margin-right: 0.1vw;
+  margin-top: calc(12.5vh - 10vw);
+  margin-bottom: calc(13.5vh - 10vw);
 }
+
+
 
 
 .newsTitle {
@@ -50,7 +52,9 @@
 
 .newsTitle,
 .newsDesc {
-  text-align: justify;
+	width: 100%;
+  text-align: center;
+  margin-bottom: calc(11vh - 10vw);
 }
 
 .mainShop {
