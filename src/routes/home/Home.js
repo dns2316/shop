@@ -21,11 +21,11 @@ class Home extends React.Component {
   };
 
   render() {
-    return (
+    return (  // export в ../../server.js но там нету точных указаний именно для Home.js.
       <div className={s.root}>
         <div className={s.container}>
           <ul className={s.news}>
-            {this.props.news.map((item, index) => (
+            {this.props.news.map((item, index) => (  // экспортируется в файл, там ему передают prors?!
               <li key={index} className={s.newsItem}>
                 <a href={item.link} className={s.newsTitle}>{item.title}</a>
                 <span
