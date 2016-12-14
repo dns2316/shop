@@ -5,16 +5,16 @@ const products = [
     price: 100,
     currency: 'USD',
     image: 'img/1/01.jpg',
-    bigImage: 1,
+    bigImage: 2,
     composed: 'Состав: 1, 2, 3.'
   },
   {
     id: 2,
-    name: 'goods',
+    name: 'goods 2',
     price: 100,
     currency: 'USD',
     image: 'img/2/01.jpg',
-    bigImage: 1,
+    bigImage: 3,
     composed: 'Состав: 1, 2, 3.'
   },
   {
