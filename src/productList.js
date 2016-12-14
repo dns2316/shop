@@ -5,7 +5,7 @@ const products = [
     price: 100,
     currency: 'USD',
     image: 'img/1/01.jpg',
-    bigImage: 'img/1/orig.jpg',
+    bigImage: 1,
     composed: 'Состав: 1, 2, 3.'
   },
   {
@@ -14,7 +14,7 @@ const products = [
     price: 100,
     currency: 'USD',
     image: 'img/2/01.jpg',
-    bigImage: 'img/2/orig.jpg',
+    bigImage: 1,
     composed: 'Состав: 1, 2, 3.'
   },
   {
@@ -23,7 +23,7 @@ const products = [
     price: 100,
     currency: 'USD',
     image: 'img/3/01.jpg',
-    bigImage: 'img/3/orig.jpg',
+    bigImage: 1,
     composed: 'Состав: 1, 2, 3.'
   },
   {
@@ -32,7 +32,7 @@ const products = [
     price: 100,
     currency: 'USD',
     image: 'img/4/01.jpg',
-    bigImage: 'img/4/orig.jpg',
+    bigImage: 1,
     composed: 'Состав: 1, 2, 3.'
   },
   {
@@ -41,7 +41,7 @@ const products = [
     price: 100,
     currency: 'USD',
     image: 'img/5/01.jpg',
-    bigImage: 'img/5/orig.jpg',
+    bigImage: 1,
     composed: 'Состав: 1, 2, 3.'
   },
   {
@@ -50,7 +50,7 @@ const products = [
     price: 100,
     currency: 'USD',
     image: 'img/6/01.jpg',
-    bigImage: 'img/6/orig.jpg',
+    bigImage: 1,
     composed: 'Состав: 1, 2, 3.'
   },
   {
@@ -59,7 +59,7 @@ const products = [
     price: 100,
     currency: 'USD',
     image: 'img/7/01.jpg',
-    bigImage: 'img/7/orig.jpg',
+    bigImage: 1,
     composed: 'Состав: 1, 2, 3.'
   },
   {
@@ -68,7 +68,7 @@ const products = [
     price: 100,
     currency: 'USD',
     image: 'img/8/01.jpg',
-    bigImage: 'img/8/orig.jpg',
+    bigImage: 1,
     composed: 'Состав: 1, 2, 3.'
   },
   {
@@ -77,7 +77,7 @@ const products = [
     price: 100,
     currency: 'USD',
     image: 'img/9/01.jpg',
-    bigImage: 'img/9/orig.jpg',
+    bigImage: 1,
     composed: 'Состав: 1, 2, 3.'
   }
 ]

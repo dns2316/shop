@@ -60,7 +60,7 @@
 .composed {
   margin: 1em;
   text-align: center;
-  display: inline-block;
+  display: inherit;
 }
 
 .nameItem {
