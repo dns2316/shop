@@ -14,7 +14,7 @@ class App extends Component {
         <div className="items">
           {product.map((item,index) => (
             <div key={index} className="item">
-                <img src={item.image} alt={item.name} />
+              <img src={item.image} alt={item.name} />
               <span className="nameItem">{item.name}</span><br/>
               <div className="priceItem">
                 <span className="priceItemPrice">{item.price} {item.currency}</span><span className="priceItemCur">1 шт</span>
