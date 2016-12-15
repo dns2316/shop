@@ -37,14 +37,15 @@
 .item {
   float: left;
   max-width: 250px;
-  max-height: 275px; /*такая величина избавит от отступа после цены в  десктопной версии*/
+  max-height: 275px; /* сделала высоту меньше*/
   width: 26%;
   height: 100%;
-  min-height: 10vw;
+  min-height: 11vw;
   border: solid 0.1vw black;
   margin-left: 4.6%;
   margin-bottom: 20px;
   text-align: center;
+  line-height: 0px; /*добавила новое свойство, чтобы избавится от ненужных пробелов*/
 
 }
 
@@ -72,6 +73,7 @@
   color: #d4cbfe;
   background-color: #d0748d;
   display: inline-block;
+  line-height: 25px; /*добавила новое свойство, чтобы избавится от ненужных пробелов*/
 }
 
 .priceItem {
@@ -80,6 +82,7 @@
   color: #000;
   background-color: #85d4d1;
   display: inline-block;
+  line-height: 19px; /*добавила новое свойство, чтобы избавится от ненужных пробелов*/
 }
 
 .priceItemCur {
