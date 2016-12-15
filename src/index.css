@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  /*background-color: #e5bfce;*/
+  font-family: "San Francisco", "Helvetica Neue", Helvetica, "Ubuntu", "Times New Roman", Arial, sans-serif;
   background: linear-gradient(#e5bfce, #eeadbf, #e3a5b6);
 }

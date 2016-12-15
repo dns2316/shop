@@ -10,10 +10,11 @@ var styleSL = {
   },
   dialogStyles: {
     width: '50vw',
-    height: '70vh',
+    // height: '70vh',
+    height: 'inherit',
     position: 'fixed',
-    top: '50%',
-    left: '50%',
+    top: '45%',
+    left: '49%',
     marginTop: '-35vh',
     marginLeft: '-26vw',
     backgroundColor: 'hsla(120, 25%, 80%, 0.9)',
@@ -21,7 +22,7 @@ var styleSL = {
     borderRadius: '2px',
     zIndex: 100,
     padding: '15px',
-    boxShadow: '0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28)'
+    boxShadow: 'rgba(0, 0, 0, 0.137255) 0px 0px 20px 15px, rgba(0, 0, 0, 0.278431) 0px 4px 20px 12px'
   },
   title: {
     marginTop: '0'

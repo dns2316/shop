@@ -1,15 +1,19 @@
 export default function(item) {
-    const PREFIX_URL = 'img/' + item.id + '/gallery/';
-    let images = [];
-    let a = item.bigImage + 1;
-    for (let i = 0; i < a; i++) {
-      console.log('i = ', i);
+    const prefix = 'img/' + item.id + '/gallery/';
+    let images = [{
+        original: `${prefix}1.jpg`,
+        thumbnail:`${prefix}1.jpg`,
+        originalClass: 'featured-slide',
+        thumbnailClass: 'featured-thumb',
+        originalAlt: item.name,
+        // srcSet: 'Optional srcset (responsive images src)',
+        sizes: 'width=560 height=315'
+      }];
+    for (let i = item.bigImage; i !== 1; i--) {
       images.push({
-        original: `${PREFIX_URL}${i}.jpg`,
-        thumbnail:`${PREFIX_URL}${i}t.jpg`
+        original: `${prefix}${i}.jpg`,
+        thumbnail:`${prefix}${i}.jpg`
       });
-      console.log(images);
-      i--
     }
   return images;
 }
