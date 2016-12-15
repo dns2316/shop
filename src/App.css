@@ -91,3 +91,8 @@
   float: left;
   padding-left: 1em;
 }
+
+.image-gallery-thumbnails img {
+  width: 10%;
+  height: 7%;
+}
