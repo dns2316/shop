@@ -40,7 +40,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Welco1me to React</h2>
         </div>
         <div className="items">
           {product.map((item,index) => (
@@ -56,7 +56,6 @@ class App extends Component {
                 <br/>
                 <span className="composed">{item.composed} </span>
               </SkyLight>
-
               <span className="nameItem">{item.name}</span><br/>
               <div className="priceItem">
                 <span className="priceItemPrice">{item.price} {item.currency}</span><span className="priceItemCur">1 шт</span>

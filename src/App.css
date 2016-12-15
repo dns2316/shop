@@ -66,6 +66,17 @@
   display: inherit;
 }
 
+.bigImg {
+  width: 90%;
+  height: 70%;
+}
+
+.composed {
+  margin: 1em;
+  text-align: center;
+  display: inline-block;
+}
+
 .nameItem {
   width: 100%;
   height: 10%;
