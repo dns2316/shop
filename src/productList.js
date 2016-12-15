@@ -1,6 +1,7 @@
 const products = [
   {
     id: 1,
+    idgal: 'abc',
     name: 'goods 1',
     price: 100,
     currency: 'USD',
@@ -10,6 +11,7 @@ const products = [
   },
   {
     id: 2,
+    idgal: 'abc',
     name: 'goods 2',
     price: 100,
     currency: 'USD',
@@ -19,7 +21,8 @@ const products = [
   },
   {
     id: 3,
-    name: 'goods',
+    idgal: 'abc',
+    name: 'goods 3',
     price: 100,
     currency: 'USD',
     image: 'img/3/01.jpg',
@@ -28,7 +31,8 @@ const products = [
   },
   {
     id: 4,
-    name: 'goods',
+    idgal: 'abc',
+    name: 'goods 4',
     price: 100,
     currency: 'USD',
     image: 'img/4/01.jpg',
@@ -37,7 +41,8 @@ const products = [
   },
   {
     id: 5,
-    name: 'goods',
+    idgal: 'abc',
+    name: 'goods 5',
     price: 100,
     currency: 'USD',
     image: 'img/5/01.jpg',
@@ -46,7 +51,8 @@ const products = [
   },
   {
     id: 6,
-    name: 'goods',
+    idgal: 'abc',
+    name: 'goods 6',
     price: 100,
     currency: 'USD',
     image: 'img/6/01.jpg',
@@ -55,7 +61,8 @@ const products = [
   },
   {
     id: 7,
-    name: 'goods',
+    idgal: 'abc',
+    name: 'goods 7',
     price: 100,
     currency: 'USD',
     image: 'img/7/01.jpg',
@@ -64,7 +71,8 @@ const products = [
   },
   {
     id: 8,
-    name: 'goods',
+    idgal: 'abc',
+    name: 'goods 8',
     price: 100,
     currency: 'USD',
     image: 'img/8/01.jpg',
@@ -73,7 +81,8 @@ const products = [
   },
   {
     id: 9,
-    name: 'goods',
+    idgal: 'abc',
+    name: 'goods 9',
     price: 100,
     currency: 'USD',
     image: 'img/9/01.jpg',

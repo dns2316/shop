@@ -1,15 +1,11 @@
 export default function(item) {
-    const PREFIX_URL = 'img/' + item.id + '/gallery/';
+    const prefix = 'img/' + item.id + '/gallery/';
     let images = [];
-    let a = item.bigImage + 1;
-    for (let i = 0; i < a; i++) {
-      console.log('i = ', i);
+    for (let i = item.bigImage; i !== 0; i--) {
       images.push({
-        original: `${PREFIX_URL}${i}.jpg`,
-        thumbnail:`${PREFIX_URL}${i}t.jpg`
+        original: `${prefix}${i}.jpg`,
+        thumbnail:`${prefix}${i}.jpg`
       });
-      console.log(images);
-      i--
     }
   return images;
 }
