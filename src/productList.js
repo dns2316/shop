@@ -26,7 +26,7 @@ const products = [
     price: 100,
     currency: 'USD',
     image: 'img/3/01.jpg',
-    bigImage: 1,
+    bigImage: 2,
     composed: 'Состав: 1, 2, 3.'
   },
   {

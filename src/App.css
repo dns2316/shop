@@ -43,10 +43,10 @@
   float: left;
   max-width: 250px;
   max-height: 280px; /*исправила высоту*/
-  max-width: 40%;
+  width: 28%;
   height: 100%;
   min-height: 11vw;
-  min-width: 26%;
+  min-width: 28%;
   border: solid 0.1vw black;
   margin-left: 4.6%;
   margin-bottom: 20px;
@@ -57,20 +57,10 @@
 
 .preImg {
   width: 100%;
-  height: 80%;
-  display:block; /* это свойство уберет пробел после фото товара*/
+  height: 200px; /* зафиксировала высоту, чтобы изображение оставалось одинакового размера*/
+  display: inline-block; /* это свойство уберет пробел после фото товара*/
 }
 
-.bigImg {
-  width: 90%;
-  height: 70%;
-}
-
-.composed {
-  margin: 1em;
-  text-align: center;
-  display: inherit;
-}
 
 .bigImg {
   width: 90%;
@@ -100,7 +90,7 @@
   color: #000;
   background-color: #85d4d1;
   display: inline-block;
-  line-height: 19px; /*добавила новое свойство, чтобы избавится от ненужных пробелов*/
+  line-height: 18px; /*добавила новое свойство, чтобы избавится от ненужных пробелов*/
 }
 
 .priceItemCur {
