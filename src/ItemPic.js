@@ -11,15 +11,18 @@ class ItemPic extends Component {
     this.state = {
       showIndex: false,
       slideOnThumbnailHover: false,
-      showBullets: false,
-      infinite: false,
-      showThumbnails: true,
-      showFullscreenButton: false,
-      showGalleryFullscreenButton: false,
-      showGalleryPlayButton: true,
-      showNav: false,
-      slideInterval: 2000,
+      showBullets: true,
+      showThumbnails: false,
+      showFullscreenButton: true,
+      showGalleryFullscreenButton: true,
+      showGalleryPlayButton: false,
+      showNav: true,
+      slideInterval: 1000,
     };
+  }
+
+  _onImageClick(event) {
+    console.debug('clicked on image', event.target, 'at index', this._imageGallery.getCurrentIndex());
   }
 
   handleImageLoad(event) {
@@ -37,7 +40,11 @@ class ItemPic extends Component {
                 <ImageGallery
                   ref={i => this._imageGallery = i}
                   items={images(item)}
-                  slideInterval={2000}
+                  lazyLoad={false}
+                  slideInterval={parseInt(this.state.slideInterval)}
+                  showBullets={this.state.showBullets}
+                  showThumbnails={this.state.showThumbnails}
+                  showFullscreenButton={this.state.showFullscreenButton && this.state.showGalleryFullscreenButton}
                   onImageLoad={this.handleImageLoad} />
                 <br/>
                 <span className="composed">{item.composed} </span>

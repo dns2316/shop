@@ -1,3 +1,4 @@
+@import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
 .App {
   text-align: center;
@@ -29,9 +30,10 @@
 }
 
 .items {
-  margin: 1em 3em;
-  padding: 3em 0;
+
+  padding: 4em 3em;
   max-width: 900px;
+  box-sizing: border-box;
   /*max-width: var(--max-content-width);*/
   width: 100%;
   display: inline-block;
@@ -41,9 +43,10 @@
   float: left;
   max-width: 250px;
   max-height: 280px; /*исправила высоту*/
-  width: 26%;
+  max-width: 40%;
   height: 100%;
   min-height: 11vw;
+  min-width: 26%;
   border: solid 0.1vw black;
   margin-left: 4.6%;
   margin-bottom: 20px;
@@ -77,6 +80,7 @@
 .composed {
   margin: 1em;
   text-align: center;
+  float: left;
   display: inline-block;
 }
 
@@ -102,11 +106,13 @@
 .priceItemCur {
   float: right;
   padding-right: 1em;
+  text-align: center;
 }
 
 .priceItemPrice {
   float: left;
   padding-left: 1em;
+  text-align: center;
 }
 
 .image-gallery-thumbnails img {
@@ -116,4 +122,29 @@
 
 .skylight-close-button{
   display: none;
+}
+
+.skylight-dialog {
+  height: auto;
+}
+
+.image-gallery-play-button {
+  display: none;
+}
+
+/*.image-gallery-image {
+  min-width: 10em;
+  max-width: 60em;
+  min-height: 5em;
+  max-height: 50em;
+  display: inline-block;
+}*/
+
+.image-gallery {
+  min-width: 10em;
+  max-width: 60em;
+  min-height: 5em;
+  max-height: 50em;
+  display: inline-block;
+  width: 99%;
 }
