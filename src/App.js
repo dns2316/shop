@@ -21,7 +21,7 @@ class App extends Component {
       infinite: true,
       showThumbnails: true,
       showFullscreenButton: true,
-      showGalleryFullscreenButton: true,
+      showGalleryFullscreenButton: false,
       showPlayButton: true,
       showGalleryPlayButton: true,
       showNav: true,
