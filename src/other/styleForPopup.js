@@ -21,7 +21,7 @@ var styleSL = {
     borderRadius: '2px',
     zIndex: 100,
     padding: '15px',
-    boxShadow: '0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28)'
+    boxShadow: 'rgba(0, 0, 0, 0.137255) 0px 0px 20px 15px, rgba(0, 0, 0, 0.278431) 0px 4px 20px 12px'
   },
   title: {
     marginTop: '0'
